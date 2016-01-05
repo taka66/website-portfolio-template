@@ -345,7 +345,9 @@ body {
 	.work-box::after {
 		top: 0;
 		height: 100%;
-		background-size: cover;
+		background-size: contain;
+		background-color: #fff;
+		background-position: center;
 		transform: scaleY(1);
 	}
 	.skills-wrapper,
